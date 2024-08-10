@@ -23,8 +23,8 @@ jobs:
 
       - name: Build the program
         run: |
-          g++ -o prime_finder prime_finder.cpp
+          g++ -o eval2.cpp
 
       - name: Run tests
         run: |
-          ./prime_finder
+          ./Eval
